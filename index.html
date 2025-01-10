@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Mark Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/GraphicsDesign_Activities/jm-logo-only.png" type="image/x-icon">
+</head>
+<body class="">
+    <header class="shadow" >
+        <a href="#" class="navbar-brand"><img src="/img/GraphicsDesign_Activities/jm-logo-full-color.png" class="brand-img" alt="logo">{John Mark}</a>
+        <nav class="navbar " id="navbar">
+            <div class="nav-header">
+                    <h4 class="menu-title" id="menu-title">Menu</h4>
+                    <button class="close-nav" id="close-nav"><div class="cross cross-1"></div>
+                    <div class="cross cross-2"></div></button>
+                </div>
+            <ul class="offcanvas-nav">
+                <li class="nav-item"><a href="#home" class="nav-link nav-home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link nav-about">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link nav-services">Skills</a></li>
+                <li class="nav-item"><a href="#works" class="nav-link nav-projects">My Works</a></li>
+                <li class="nav-item item-contact"><a href="#contact" class=" nav-link nav-contact">Get in touch</a></li>
+                <label for="toggle-dark" class="toggler" id="toggler"><div class="toggler-circle"></div></label><input type="checkbox" name="toggle-dark" id="toggle-dark">
+            </ul>
+        </nav>
+        <button class="nav-burger" onclick="showNavbar()">
+            <div class="burger buger-1"></div>
+            <div class="burger buger-2"></div>
+            <div class="burger buger-3"></div>
+        </button>
+    </header>
+    
+    <section class="header-img home" id="home">
+        <div class="container text-container">
+            <!-- <img src="img/background_img.jpg" alt=""> -->
+             <!-- <h3 class="text-shadow">BS Computer Science 3</h3> -->
+             <div class="hello-container">
+                <div class="row row-1">
+                    <div class="hello-text hello">
+                        <h1 class="hello-text-1 ">H</h1>
+                        <h1 class="hello-text-2">E</h1>
+                        <h1 class="hello-text-3">L</h1>
+                        <h1 class="hello-text-4">L</h1>
+                        <h1 class="hello-text-5">O</h1>
+                    </div>
+                    <div class="hello-text i">
+                        <h1 class="im-text-1 ">I</h1>
+                    </div>
+                    <div class="hello-text am">
+                        <h1 class="am-text-1">A</h1>
+                        <h1 class="am-text-2 ">M</h1>
+                    </div>
+                </div>
+                <div class="row row-2">
+                   <div class="hello-text john">
+                    <h1 class="john-text-1 ">J</h1>
+                    <h1 class="john-text-2">O</h1>
+                    <h1 class="john-text-3">H</h1>
+                    <h1 class="john-text-4">N</h1>
+                </div>
+                <div class="hello-text mark">
+                    <h1 class="mark text-1 ">M</h1>
+                    <h1 class="mark text-2">A</h1>
+                    <h1 class="mark text-3">R</h1>
+                    <h1 class="mark text-4 blink">K</h1>
+                </div> 
+                </div>
+             </div>
+
+             <div class="field">
+                <h2 class="field-text ft-1" id="ft-1">PROGRAMMER</h2>
+                <h2 class="field-text ft-2" id="ft-2">GRAPHICS DESIGNER</h2>
+             </div>
+             <!-- <h1 class="text-shadow wobble">Hello I'm <span>John Mark</span> Alvarez</h1> -->
+        </div>
+        <div class="container bg-container">
+            <img src="/img/JM-HOME-IMG-BLUE.png" alt="" class="bg-img" id="bg-img">
+        </div>
+        <div class="container bg-anim-container">
+            <div class="circle-container">
+                <div class="circle circle-1 rotateToRight"><label for=""></label></div>
+                <div class="circle circle-2 rotateToLeft"><label for=""></label></div>
+                <div class="circle circle-3 "><label for=""></label></div>
+                <div class="circle circle-4 rotateToRight"><label for=""></label></div>
+                <div class="circle circle-5 rotateToLeft"><label for=""></label></div>
+                <div class="circle circle-6 rotateToRight"><label for=""></label></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="box-divider"></div>
+
+    <section class="about" id="about">
+
+        
+        <div class="container">
+
+            <div class="about-col-1">
+                <img src="img/jm1x1-light.jpg" alt="" class="about-col-1-img autoShowImgFromLeft">
+            </div>
+
+            <div class="about-col-2">
+                <div class="col-row-1">
+                    <h2 class=" autoBlur">About Me</h2>
+                    <p class="autoBlur">I am <span>John Mark P. Alvarez</span>, Single, 19 years old. 
+                    I lived in Barangay Bilibinwang, Agoncillo, Batangas, Philippines. 
+                    Currently a 3rd year Bachelor of Science in Computer Science Student at Lemery Colleges. 
+                    My hobby is Programming.</p>
+                </div>
+
+                <div class="col-row-1 gfx-des autoBlur">
+                    <h2 class="autoBlur" align="center">Why Do I Want to Be a Graphics Designer?</h2>
+                <p class="autoBlur">
+                    " I'm a guy who have a wide imagination, and as a Graphics Designer I turn my imaginations into reality by creating different graphics. "</p>
+                </div>
+
+                <div class="col-row-2 ">
+                    <h2 class="autoShowTextFromRight">Education</h2>
+                    <div class="educ-dot autoShowGlow"></div>
+
+                    <row class="educ-row row-1 autoShowCardFromLeft shadow">
+                        <h3 class="education-title autoShowFromLeft">Tertiary</h3>
+                        <p class="course autoShowFromLeft">Bachelor of Science in Computer Science</p>
+                        <div class="education-desc autoShowFromLeft">
+                            <p>Lemery Colleges</p>
+                            <p>:</p>
+                            <p>2022 - 2026</p>
+                        </div>
+                    </row>
+                    <div class="educ-dot autoShowGlow shadow"></div>
+                    <row class="educ-row row-2 autoShowCardFromRight">
+                        <h3 class="education-title autoShowTextFromRight">Secondary</h3>
+                        <p class="strand autoShowTextFromRight">STEM</p>
+                        <div class="education-desc autoShowTextFromRight">
+                            <p>Agoncillo Senior High School</p>
+                            <p>:</p>
+                            <p>2021 - 2022</p>
+                        </div>
+                    </row>
+                    <div class="educ-dot autoShowGlow"></div>
+                    <row class="educ-row row-3 autoShowCardFromLeft shadow">
+                        <h3 class="education-title autoShowFromLeft">Primary</h3>
+                        <div class="education-desc autoShowFromLeft">
+                            <p>Banyaga Elementary School</p>
+                            <p>:</p>
+                            <p>2010 - 2016</p>
+                        </div>
+                    </row>
+
+                    <div class="educ-vr-line autoShowLinefromTop"></div>
+                    <!-- <row class="educ-row row-4">
+                        <h3 class="education-title"></h3>
+                        <p class="education-desc"></p>
+                    </row> -->
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <div class="box-divider"></div>
+
+    <section class="services" id="services">
+        <div class="header">
+            <h1>Skills</h1>
+        </div>
+
+        <div class="card-container card-container-1" id="card-container">
+            <div class="card card-1">
+                <div class="card-image">
+                    <img src="Icons/c-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>C Language</h3>
+                </div>
+            </div>
+
+            <div class="card card-2">
+                <div class="card-image">
+                    <img src="Icons/html5-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+
+            <div class="card card-3">
+                <div class="card-image">
+                    <img src="Icons/css3-alt-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+
+            <div class="card card-4">
+                <div class="card-image">
+                    <img src="Icons/js-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+
+            <div class="card card-5">
+                <div class="card-image">
+                    <img src="Icons/mysql-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+
+            <div class="card card-6">
+                <div class="card-image">
+                    <img src="Icons/php-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>PHP</h3>
+                </div>
+            </div>
+
+            <div class="card card-7">
+                <div class="card-image">
+                    <img src="Icons/visual-basic-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Visual Basic .Net</h3>
+                </div>
+            </div>
+
+        
+
+        </div>
+
+        <div class="card-container card-container-2" id="card-container">
+            <div class="card card-8">
+                <div class="card-image">
+                    <img src="Icons/illustrator-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Illustrator</h3>
+                </div>
+            </div>
+
+            <div class="card card-9">
+                <div class="card-image">
+                    <img src="Icons/photoshop-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Photoshop</h3>
+                </div>
+            </div>
+
+            <div class="card card-10">
+                <div class="card-image">
+                    <img src="Icons/lightroom-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Lightroom</h3>
+                </div>
+            </div>
+
+            <div class="card card-11">
+                <div class="card-image">
+                    <img src="Icons/java-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Java</h3>
+                </div>
+            </div>
+
+            <div class="card card-12">
+                <div class="card-image">
+                    <img src="Icons/unity-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Unity</h3>
+                </div>
+            </div>
+
+            <div class="card card-13">
+                <div class="card-image">
+                    <img src="Icons/crop-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Web Design</h3>
+                </div>
+            </div>
+
+            <div class="card card-14">
+                <div class="card-image">
+                    <img src="Icons/code-black.png" alt="">
+                </div>
+                <div class="card-body">
+                    <h3>Programming</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="box-divider"></div>
+
+    <section class="works" id="works">
+
+        <div class="header">
+            <h1>My Works</h1>
+        </div>
+
+        <!-- <div class="works-container">
+            <div class="work-title work-1">
+                <div class="graphics-title">
+                    <h3>G</h3>
+                    <h3>R</h3>
+                    <h3>A</h3>
+                    <h3>P</h3>
+                    <h3>H</h3>
+                    <h3>I</h3>
+                    <h3>C</h3>
+                    <h3>S</h3>
+                </div>
+            </div>
+            <div class="vr-line"></div>
+            <div class="work-title work-2">
+                <div class="systems-title">
+                    <h3>S</h3>
+                    <h3>Y</h3>
+                    <h3>S</h3>
+                    <h3>T</h3>
+                    <h3>E</h3>
+                    <h3>M</h3>
+                    <h3>S</h3>
+                </div>
+            </div>
+            <div class="vr-line"></div>
+            <div class="work-title work-3">
+                <div class="games-title">
+                    <h3>G</h3>
+                    <h3>A</h3>
+                    <h3>M</h3>
+                    <h3>E</h3>
+                    <h3>S</h3>
+                </div>
+            </div>
+        </div> -->
+        
+        <div class="works-container">
+
+            
+            <div class="works-title-container rotate">
+                <div class="title-col title-col-1">
+                    <label for="graphicsToggler" id="btn-graphicsToggler" class="works-title works-title-1 rotateReverse">
+                        <input type="checkbox" name="graphicsToggler" id="graphicsToggler">
+                        <h3 class="">Graphics</h3>
+                    </label>
+                </div>
+                <div class="center-circle"></div>
+                <div class="title-col title-col-2">
+                    <label for="systemsToggler" id="btn-systemsToggler" class="works-title works-title-2 rotateReverse">
+                        <input type="checkbox" name="systemsToggler" id="systemsToggler">
+                        <h3 class="">Systems</h3>
+                    </label>
+                    <label for="gamesToggler" id="btn-gamesToggler" class="works-title works-title-3 rotateReverse">
+                        <input type="checkbox" name="gamesToggler" id="gamesToggler">
+                        <h3 class="">Games</h3>
+                    </label>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="col col-1">
+                <!-- <h2 class="autoShowFromLeft">Get In Touch</h2> -->
+                 <div class="git-container autoShowFromLeft">
+                    <div class="get">
+                        <h2>G</h2>
+                        <h2>E</h2>
+                        <h2>T</h2>
+                    </div>
+                    <div class="in">
+                        <h2>I</h2>
+                        <h2>N</h2>
+                    </div>
+                    <div class="touch">
+                        <h2>T</h2>
+                        <h2>O</h2>
+                        <h2>U</h2>
+                        <h2>C</h2>
+                        <h2 class="blink">H</h2>
+                    </div>
+                 </div>
+                <div class="email autoShowFromLeft"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0d6efd" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg><a href="mailto:alvarezjohnmark118@gmail.com" target="_blank" class="email-link">alvarezjohnmark118@gmail.com</a></div>
+                <div class="phone autoShowFromLeft"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0d6efd" viewBox="0 0 256 256"><path d="M144.27,45.93a8,8,0,0,1,9.8-5.66,86.22,86.22,0,0,1,61.66,61.66,8,8,0,0,1-5.66,9.8A8.23,8.23,0,0,1,208,112a8,8,0,0,1-7.73-5.94,70.35,70.35,0,0,0-50.33-50.33A8,8,0,0,1,144.27,45.93Zm-2.33,41.8c13.79,3.68,22.65,12.54,26.33,26.33A8,8,0,0,0,176,120a8.23,8.23,0,0,0,2.07-.27,8,8,0,0,0,5.66-9.8c-5.12-19.16-18.5-32.54-37.66-37.66a8,8,0,1,0-4.13,15.46Zm81.94,95.35A56.26,56.26,0,0,1,168,232C88.6,232,24,167.4,24,88A56.26,56.26,0,0,1,72.92,32.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,109.39,104c-.18.27-.37.52-.57.77L88,129.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,223.88,183.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a8.44,8.44,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L96,95.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,40,88,128.14,128.14,0,0,0,168,216,40.21,40.21,0,0,0,208,181.07Z"></path></svg> <p>09997180334</p></div>
+                <div class="col-1-row autoShowFromLeft">
+                    <div class="fb-icon"><a href="https://web.facebook.com/jm092904" aria-label="Profile Link"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0d6efd" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path></svg></a></div>
+                    <div class="insta-icon"><a href="https://www.instagram.com/its_me_je_em/" aria-label="insta"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0d6efd" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg></a></div>
+                </div>
+            </div>
+            <div class="col col-2">
+                <form action="" method="post" class="col" name="submit-to-google-sheet">
+                    <input class="tb tb-1 autoShowTextFromRight" type="text" name="your-name" id="your-name" placeholder="Your Name">
+                    <input class="tb tb-2 autoShowTextFromRight" type="email" name="your-email" id="your-email" placeholder="Your Email">
+                    <textarea class="tb tb-3 autoShowTextFromRight" name="your-message" id="your-message" aria-label="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send" name="send-message" class="btn-send ">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="iframes-container " id="iframes-container">
+        <div class="iframes-header">
+            
+                <input type="checkbox" name="iframes-toggler" id="iframes-toggler" aria-label="iframes toggler">
+                <label for="iframes-toggler" class="btn-close-iframe" id="btn-close-iframe"><div class="frame-cross frame-cross-1"></div>
+                <div class="frame-cross frame-cross-2"></div></label>    
+            
+                    <h1 id="iframes-title">GRAPHICS</h1>
+        </div>
+        <iframe src="" frameborder="0" id="work-frame"></iframe>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz_FebykPlLxcpXLbXHvd4gHF6HkFjsdGPrvAZJVgPfmryZC6l5o6DlmCNmLCJGwBoIxQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.style.opacity = "1";
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.style.opacity = "0";
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+<footer>
+    <img src="img/GraphicsDesign_Activities/jm-logo-black.png" alt="logo">
+    <p>Copyright &copy; John Mark P. Alvarez &bullet; 2024</p>
+</footer>
+</html>
