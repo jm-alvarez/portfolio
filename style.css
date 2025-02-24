@@ -1194,15 +1194,18 @@ header {
     }
 
     .col-2 {
+        position: relative;
         width: 100%;
-        padding: 10px 50px;
         color: #fff;
 
 
         form {
+            width: 80%;
+
             .tb {
+                width: 100%;
                 height: 30px;
-                padding: 10px 10px;
+                padding: 10px;
                 font-size: 16px;
                 background-color: transparent;
                 border-radius: 10px;
@@ -1919,6 +1922,12 @@ footer {
                 display: flex;
                 flex-direction: column;
 
+                .about-col-1 {
+                    img {
+                        margin: 30px;
+                    }
+                }
+
                 .about-col-2 {
                     border-top: 1px solid var(--blue);
                     border-bottom: 1px solid var(--blue);
@@ -1944,25 +1953,55 @@ footer {
 
         #contact {
             
+            padding: 20px;
+
             .contact-container {
                 display: flex;
                 flex-direction: column;
                 
+                .col-1 {
+                    padding: 0;
+                    margin: 0;
+
+                    h2 {
+                        font-size: 4rem;
+                    }
+                }
+
                 .col-2 {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 600px;
 
                     form {
-                        width: 100%;
                         padding: 0px;
-                        margin: 0;  
+                        margin: 0;
+                        
+                        .btn-send {
+                            margin: 0;
+                            width: 100%;
+                        }
                     }
                     
                 }
             }
         }
     }
+
+    .autoBlur {
+        animation: autoBlurAnim linear both;
+        animation-timeline: view();
+    }
+    
+    @keyframes autoBlurAnim {
+            0%{
+                filter: blur(40px);
+            } 35%, 65% {
+                filter: blur(0px);
+            } 100% {
+                filter: blur(40px);
+            }
+    }
+
 
 }
